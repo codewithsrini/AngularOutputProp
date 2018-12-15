@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoggedInUserEventArgs } from './login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularOutputProp';
+
+  isUserLogged = false;
+  user: LoggedInUserEventArgs;
+
+  onLoginEventFired(eventArgs: LoggedInUserEventArgs) {
+    console.log("APP COMPONENT: On Login Event Fired", eventArgs);
+    if(eventArgs.user) {
+      this.isUserLogged = true;
+      this.user = eventArgs;
+    }
+  }
+
 }

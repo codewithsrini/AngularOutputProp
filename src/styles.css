@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.css";
+ 
+nav {
+  margin-bottom: 20px;
+}
+
+#mainNav li a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #ee5253;
+}
+
+#mainNav .nav-item .active,
+#mainNav .nav-item .nav-link:hover {
+  background: #ff6b6b;
+  color: #000;
+}
