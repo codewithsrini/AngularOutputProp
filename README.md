@@ -1,6 +1,7 @@
 # AngularOutputProp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+Blog [CodeWithSrini](http://www.codewithsrini.com/)
 
 ## Development server
 
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[Angular Tutorials](http://www.codewithsrini.com/category/angular-6/)
+[Javascript Tutorials](http://www.codewithsrini.com/category/javascript/)
